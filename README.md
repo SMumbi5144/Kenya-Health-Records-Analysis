@@ -1,21 +1,28 @@
- # KENYA HEALTH RECORDS PROJECT
- The project aims to analyze the state of Kenya's healthcare system through identifying issues and coming up with data-backed recommendations.
+# Kenya Hospital Analysis Project
 
- ## Tools used
- - Microsoft Excel
- - Git
- - Github
+## Description
+This project analyzes patient health records from Kenyan hospitals to identify patterns in diagnoses, billing, insurance coverage, and payment status. The goal is to surface data-backed findings that can support better records management and revenue collection in the healthcare system.
 
- ## Challenges Faced
-- Handling missing values in the Insurance Provider colmn without skewing analysis.
-- Getting comfortable with Git Bash commands while documenting the project.
+## Tools Used
+- Microsoft Excel
+- Git
+- GitHub
 
- ## Findings and Recommendations
-*Dataset : 672 patient records, 2020-2025*
+## Challenges Faced
+- Handling missing values in the Insurance Provider column (~20% of records) without skewing analysis.
+- Determining whether inconsistent diagnosis-to-department assignments were data entry errors or intentional groupings.
+- Getting comfortable with Git Bash and Vim commands while documenting and committing the project.
 
+## Findings
+- Only 34.1% of bills are fully paid; 33.5% are partially paid and 32.4% are pending, leaving roughly KES 11.7 million outstanding.
+- 20.2% of patients have no insurance provider recorded.
+- Insurance status alone doesn't explain payment completion, even insured patients show high pending/partial rates.
+- Asthma, Diabetes, and Hypertension are the top three diagnoses, together making up about 47% of cases.
+- Diagnosis-to-department assignments appear inconsistent and may need validation against real clinical routing rules.
 
- ### Findings
-1. **High Outstanding Payments** - Only 34.1% of bills are fully paid;33.5% are partially paid and 32.4% are still pending, leaving roughly **KES 11.7 million** in unpaid or partial balances.
-
-### Recommendations
-1. **Prioritize Collections Follow-Up** - Flag the ~32% "Pending" accounts for active follow-up,starting with the highest bill amounts, to reduce the KES 11.7M outstanding balance.
+## Recommendations
+1. Prioritize follow-up on pending accounts, starting with the highest bill amounts.
+2. Make insurance provider a mandatory field at patient registration.
+3. Investigate claims processing time and self-pay reminder processes as separate drivers of payment delay.
+4. Audit department coding against clinical staff input to confirm correct specialty assignment.
+5. Ensure adequate staffing and supply planning for the top three diagnoses.
