@@ -11,7 +11,7 @@ This project analyzes patient health records from Kenyan hospitals to identify p
 ## Challenges Faced
 - Handling missing values in the Insurance Provider column (~20% of records) without skewing analysis.
 - Determining whether inconsistent diagnosis-to-department assignments were data entry errors or intentional groupings.
-- Getting comfortable with Git Bash and Vim commands while documenting and committing the project.
+- Getting comfortable with Git Bash commands while documenting and committing the project.
 
 ## Findings
 - Only 34.1% of bills are fully paid; 33.5% are partially paid and 32.4% are pending, leaving roughly KES 11.7 million outstanding.
