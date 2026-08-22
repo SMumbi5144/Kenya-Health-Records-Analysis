@@ -1,4 +1,4 @@
-# Kenya Hospital Analysis Project
+# Kenya Hospital Records Analysis 
 
 ## Description
 This project analyzes patient health records from Kenyan hospitals to identify patterns in diagnoses, billing, insurance coverage, and payment status. The goal is to surface data-backed findings that can support better records management and revenue collection in the healthcare system.
